@@ -19,14 +19,17 @@
                     <p class="texto">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 </section>
                 <form method="post">
-                    <label for="iusuario" class="usuario"><i class="material-symbols-outlined">person</i></label>
-                    <input type="email" name="usuario" id="iusuario" placeholder="Seu e-mail">
+                    <div class="campo">
+                        <label for="iusuario" class="usuario"><i class="material-symbols-outlined">person</i></label>
+                        <input type="email" name="usuario" id="iusuario" placeholder="Seu e-mail" required maxlength="30">
+                    </div>
                     <br>
-                    <label for="isenha"><i class="material-symbols-outlined">vpn_key</i></label>
-                    <input type="password" name="senha" id="isenha" placeholder="Sua senha">
+                    <div class="campo">
+                        <label for="isenha"><i class="material-symbols-outlined">vpn_key</i></label>
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" required minlength="8">
+                    </div>
                     <br>
                     <input type="submit" value="Entrar">
-                    <br>
                     <input type="button" value="Esqueci minha senha">
                 </form>
             </section>

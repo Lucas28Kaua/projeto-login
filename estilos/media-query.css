@@ -21,6 +21,9 @@
         height: 100%;
     }
 
+    p.texto{
+    font-size: 1.2em;
+    }
     section#formlogin{
         float:left;
         width:70%;
@@ -44,6 +47,9 @@
         height: 100%;
     }
 
+    p.texto{
+    font-size: 1.2em;
+    }
     section#formlogin{
         float:left;
         width:70%;
